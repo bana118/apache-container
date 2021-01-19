@@ -1,7 +1,7 @@
 {
     "name": "apache-container",
     "dockerFile": "Dockerfile",
-    "appPort": [ 80 ],
+    "appPort": ["8000:80"],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
     },

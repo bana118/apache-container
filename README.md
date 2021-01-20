@@ -12,4 +12,4 @@ Apacheの起動
 service apache2 start 
 ```
 
-http://127.0.0.1 に`/www/html/index.html`が表示される
+http://127.0.0.1:8000 に`/www/html/index.html`が表示される

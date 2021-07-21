@@ -1,9 +1,8 @@
 {
     "name": "apache-container",
     "dockerFile": "Dockerfile",
-    "appPort": ["8000:80"],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash",
-    },
+    "appPort": [
+        "8000:80"
+    ],
     "postCreateCommand": "cp /workspaces/apache-container/apache2/apache2.conf /etc/apache2/apache2.conf && cp /workspaces/apache-container/apache2/sites-available/000-default.conf /etc/apache2/sites-available/000-default.conf"
 }
